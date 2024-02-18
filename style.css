@@ -5,10 +5,17 @@
     --Dark-blue: hsl(218, 44%, 22%);
 }
 
+body {
+    background-color: var(--Light-gray);
+    font-family: 'Outfit', sans-serif;
+    text-align: center;       
+}
+
 
 .container {
     display: flex;
-    background-color: var(--Light-gray);
+    flex-direction: column;
+
     justify-content: center;
     align-items: center;
     min-height: 100vh;
@@ -29,11 +36,6 @@ img {
     display: block;
     border-radius: 15px;
     width: 100%;
-}
-
-h1, p {
-    text-align: center;
-    font-family: 'Outfit', sans-serif;
 }
 
 h1 {
