@@ -1,17 +1,25 @@
-body {
+:root {
+    --White: hsl(0, 0%, 100%);
+    --Light-gray: hsl(212, 45%, 89%);
+    --Grayish-blue: hsl(220, 15%, 55%);
+    --Dark-blue: hsl(218, 44%, 22%);
+}
+
+
+.container {
     display: flex;
-    background-color: hsl(212, 45%, 89%);
+    background-color: var(--Light-gray);
     justify-content: center;
     align-items: center;
     min-height: 100vh;
 }
 
-.container {
+.card {
     border-radius: 20px;
-    background-color: hsl(0, 0%, 100%);
+    background-color: var(--White);
     align-items: center;
     width: 300px;
-    height: auto;
+    height: 497px;
     padding: 15px;
     margin-bottom: 15px;
     box-shadow: 0px 4px 5px 4px rgba(115,115,115,0.07);
@@ -31,13 +39,13 @@ h1, p {
 h1 {
     font-size: 22px;
     font-weight: bold;
-    color: hsl(218, 44%, 22%);
+    color: var(--Dark-blue);
     padding: 5px 5px 0px 5px;
 }
 
 p {
     font-size: 15px;
-    color: hsl(220, 15%, 55%);
+    color: var(--Grayish-blue);
     padding: 0px 20px 10px 20px;
 }
 
