@@ -44,7 +44,7 @@ img {
 
 .text-content {
     margin-top: 24px;
-    margin-bottom: 24px;
+    margin-bottom: 15px;
 }
 
 h1 {
@@ -58,7 +58,7 @@ h1 {
 p {
     font-size: 15px;
     color: var(--Grayish-blue);
-    padding: 0px 18px;
+    padding: 0px 19px;
 }
 
 .attribution { 
