@@ -58,7 +58,8 @@ h1 {
 p {
     font-size: 15px;
     color: var(--Grayish-blue);
-    padding: 0px 19px;
+    padding: 0px 14px;
+    letter-spacing: 0.19px;
 }
 
 .attribution { 
